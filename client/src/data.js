@@ -211,28 +211,22 @@ export const preferenceData = [
 export const cardHighLightsDetails = [
     {
         id: uuidv4(),
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017713/Malaysia%20Experience/KL%20Tower/OD2_kzvpsd.jpg",
-        title:"Observation Deck",
-        desc:"From the tower's observation deck, take in breath-taking, all- encompassing views of Kuala Lumpur. It offers a 360-degree panorama of the city, showing the skyline and well-known sites"
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708583276/Malaysia%20Experience/SKYCAB%20LANGKAWI/skybridge_3_mhmgch.jpg",
+        title:"Skybridge",
+        desc:"Enjoy both the mesmerising architecture of the bridge, where it's balanced on a single point on top of the pylon, as well as the surrounding nature along the 125m walk."
     },
     {
         id: uuidv4(),
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017715/Malaysia%20Experience/KL%20Tower/SD1_vzqgv0.jpg",
-        title:"Sky Deck",
-        desc:"Savor the excitement of being on the open-air platform at a lofty viewpoint, known as the Sky Deck."
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708583401/Malaysia%20Experience/SKYCAB%20LANGKAWI/skyglide_1_nyh0v4.jpg",
+        title:"Skyglide",
+        desc:"A moving glass cabin elevator to skip the exhausting walk to the Skybridge."
     },   
     {
         id: uuidv4(),
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017714/Malaysia%20Experience/KL%20Tower/SB1_r2vnbq.jpg",
-        title:"Sky Box",
-        desc:"Extending from the Sky Deck, the glass-floored Sky Box awaits the daring. Gazingdown at the city below from this translucent cage is an exhilarating experience."
-    },  
-    {
-        id: uuidv4(),
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017719/Malaysia%20Experience/KL%20Tower/image2-4_ojzcvd.png",
-        title:"Tower Walk 100",
-        desc:"The KL Tower walk is an adrenaline-pumping activity that involves walking on an open-air ledge encircling the tower at a considerable height."
-    },  
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_1_ueoe5q.jpg",
+        title:"Eagle Nest Skywalk",
+        desc:"Located on top of Machincang Mountain, they are the longest freestanding cantiliver skywalk, stretching a whooping 38-metres long and 30 metres wide"
+    },
 ]
 
 
@@ -240,18 +234,18 @@ export const cardHighLightsDetails = [
 export const thingsTodo = [
     {
         id: uuidv4(),
-        desc:"Skydeck presents the 360° skyline view of the city with breeze in an open-air deck.",
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017716/Malaysia%20Experience/KL%20Tower/sky_deck_3_wyafkz.jpg"
+        desc:"Experience the longest range mono cable car recorded in Malaysia Bookof Records.",
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708583400/Malaysia%20Experience/SKYCAB%20LANGKAWI/skycab_2_flcc17.jpg"
     },
     {
         id: uuidv4(),
-        desc:"Feel the adrenaline rush for outdoor activities with walking at the 100 ft above the city with Tower Walk 100.",
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017719/Malaysia%20Experience/KL%20Tower/image2-4_ojzcvd.png"
+        desc:"Travel in a amazing journey across the 550 million years old of thick forests at the South East Asia.",
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708583402/Malaysia%20Experience/SKYCAB%20LANGKAWI/skyglide_5_fhabsv.jpg"
     },
     {
         id: uuidv4(),
-        desc:"For those who want to stay indoors, they offers panoramic views of the metropolitan city from its Observation Deck, which soars 276 meters above the ground",
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017713/Malaysia%20Experience/KL%20Tower/KL_Tower_Observation_Deck_khzvt1.jpg"
+        desc:"Embark in a whole different world of Sky Dome which offers 360 degrees of 3D Image projection that can easily cover your entire view.",
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708583403/Malaysia%20Experience/SKYCAB%20LANGKAWI/skyrex_2_pfaeha.jpg"
     },
     
 ]

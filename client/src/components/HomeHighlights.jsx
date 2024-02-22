@@ -19,7 +19,7 @@ const Cards = () => {
 const HomeHighlights = () => {
   return (
     <section className='HomeHighlightsMainContainer'>
-        <h1>Things you must try at KL TOWER</h1>
+        <h1>Things you must try at SKYCAB LANGKAWI</h1>
         <div className="cardMainContainer">
             <Cards />
         </div>

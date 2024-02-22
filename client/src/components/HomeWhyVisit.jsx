@@ -6,21 +6,21 @@ const HomeWhyVisit = () => {
   return (
     <section className='whyVisitMainComponents'>
         
-        <h1>Why You Need to Visit KL TOWER ?</h1>
+        <h1>Why You Need to Visit Skycab Langkawi ?</h1>
         <div className="whyVisitCardContainer">
             <div className="listData">
 
                     <p>
-                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1708017717/Malaysia%20Experience/KL%20Tower/sky_deck_zjutli.jpg" alt="image" /><br />
-                        <span>Panoramic Views</span> Kuala Lumpur's skyline and surrounding area are breathtakingly visiblefrom KL Tower.<br/>
+                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1708583400/Malaysia%20Experience/SKYCAB%20LANGKAWI/skycab_ounpxw.jpg" alt="image" /><br />
+                        <span>Stunning Scenery</span>Enjoy breathtaking views of Langkawi's rainforest and islands.<br/>
                     </p>
                     <p>
-                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1708017713/Malaysia%20Experience/KL%20Tower/kl_tower_1_qyifma.jpg" alt="images" /><br />
-                        <span>Iconic Landmark</span>The KL Tower is a prominent feature of Kuala Lumpur's skyline and an iconic landmark.<br/>
+                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1708583400/Malaysia%20Experience/SKYCAB%20LANGKAWI/skycab_2_flcc17.jpg" alt="images" /><br />
+                        <span>Thrilling Ride</span>Experience an exhilarating cable car journey up Machinchang mountain.<br/>
                     </p>
                     <p>
-                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1708017713/Malaysia%20Experience/KL%20Tower/KL_Tower_Observation_Deck_khzvt1.jpg" alt="IMAGE" /><br />
-                        <span>Adventure Activities</span>The Sky Box and Sky Deck, two of the tower's many adventureactivities, let thrill-seekers feel what it's like to be suspended very far above the ground.<br/>
+                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/skybrdige_1_kcgmsa.jpg" alt="IMAGE" /><br />
+                        <span>Iconic SkyBridge</span>Walk on the suspended bridge for awe-inspiring views.<br/>
                     </p>
                     
             </div>
