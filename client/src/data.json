@@ -1,0 +1,134 @@
+[
+    {
+        "id": "31491a7c-901a-4c61-a10a-c29060b86bce",
+        "image": [
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017713/Malaysia%20Experience/KL%20Tower/kl_tower_1_qyifma.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017714/Malaysia%20Experience/KL%20Tower/Observation-Deck_2_xzu01x.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017714/Malaysia%20Experience/KL%20Tower/Observation-Deck_ex7hpa.jpg"
+        ],
+        "title": "Observation Deck",
+        "desc": "Take in mesmerising landscapes of Kuala Lumpur City at the height of 276 meters above the ground with their exclusive binocular service.",
+        "type": "bookTypeOne",
+        "preference": [
+            {
+                "title": "Malaysian",
+                "price": {
+                    "adult": 27,
+                    "child": 17
+                },
+                "details": [
+                    "Valid only for Malaysian Citizens"
+                ]
+            },
+            {
+                "title": "Non-Malaysian",
+                "price": {
+                    "adult": 48,
+                    "child": 28
+                },
+                "details": [
+                    "Valid only for Non Malaysian Citizens"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "81920c6e-5fd7-41a2-8882-9525a880a8e5",
+        "image": [
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017719/Malaysia%20Experience/KL%20Tower/image2-4_ojzcvd.png",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017717/Malaysia%20Experience/KL%20Tower/towerwalk_2_nn5pzd.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017718/Malaysia%20Experience/KL%20Tower/TW2_ncw2wp.jpg"
+        ],
+        "title": "Tower Walk",
+        "desc": "Feel the thrill of walking 100 feet above the ground, on the edge of the tower with the supervision of the professionals.",
+        "type": "bookTypeTwo",
+        "preference": [
+            {
+                "title": "Malaysian",
+                "price": {
+                    "adult": 18,
+                    "child": 12
+                },
+                "details": [
+                    "Valid only for Malaysian Citizens"
+                ]
+            },
+            {
+                "title": "Non-Malaysian",
+                "price": {
+                    "adult": 32,
+                    "child": 25
+                },
+                "details": [
+                    "Valid only for Non Malaysian Citizens"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "11b227b9-2960-4662-bc77-49960d12441c",
+        "image": [
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017715/Malaysia%20Experience/KL%20Tower/sbox_z3am32.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017716/Malaysia%20Experience/KL%20Tower/sky_deck_3_wyafkz.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017717/Malaysia%20Experience/KL%20Tower/sky_deck_2_xkyyqc.png"
+        ],
+        "title": "Sky Deck + Sky Box",
+        "desc": "Located 300 above the ground, they offers unique experience for visitor to enjoy the skyline day and night.",
+        "type": "bookTypeThree",
+        "preference": [
+            {
+                "title": "Malaysian",
+                "price": {
+                    "adult": 60,
+                    "child": 30
+                },
+                "details": [
+                    "Valid only for Malaysian Citizens"
+                ]
+            },
+            {
+                "title": "Non-Malaysian",
+                "price": {
+                    "adult": 79,
+                    "child": 49
+                },
+                "details": [
+                    "Valid only for Non Malaysian Citizens"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7362369d-28df-4417-bcba-17b9cb3b5bd4",
+        "image": [
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017715/Malaysia%20Experience/KL%20Tower/Observation-Deck_3_inqqw9.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017715/Malaysia%20Experience/KL%20Tower/sbox_2_rpilkp.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017717/Malaysia%20Experience/KL%20Tower/sky_deck_2_xkyyqc.png"
+        ],
+        "title": "Combo: Observation Deck + Sky Deck + Sky Box",
+        "desc": "Hold the admission to Observation Deck, Sky Deck and Sky Box, tourist may enjoy the majestic views of Kuala Lumpur with various spots and heights.",
+        "type": "bookTypeFour",
+        "preference": [
+            {
+                "title": "Malaysian",
+                "price": {
+                    "adult": 85,
+                    "child": 42
+                },
+                "details": [
+                    "Valid only for Malaysian Citizens"
+                ]
+            },
+            {
+                "title": "Non-Malaysian",
+                "price": {
+                    "adult": 115,
+                    "child": 72
+                },
+                "details": [
+                    "Valid only for Non Malaysian Citizens"
+                ]
+            }
+        ]
+    }
+]
