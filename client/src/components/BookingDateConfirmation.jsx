@@ -211,28 +211,16 @@ const BookingDateConfirmation = () => {
                     selectedDate ? <>
                     <div className='prefrenceAndDateContainer'>
                         <p>{
-                            type === 'bookTypeOne' && pref ?  pref : type === 'bookTypeTwo' && pref ?  pref : type === 'bookTypeThree' && pref ?  pref : type === 'bookTypeFour' && pref ?  pref : <></> 
+                            type === 'bookTypeOne' && pref ?  pref : type === 'bookTypeTwo' && pref ?  pref : type === 'bookTypeThree' && pref ?  pref : type === 'bookTypeFour' && pref ?  pref : type === 'bookTypeFive' && pref ?  pref : <></> 
                         }</p>
                     <p>You selected {format(selectedDate, 'PPP')}.</p>
                     </div>
                     {
-                        type === 'bookTypeOne' && pref ? <button onClick={() => {
+                        type && pref ? <button onClick={() => {
                             dispatch(setBookingDate({selectedBookingDate:format(selectedDate, 'PPP'), selectedDay: selectedDate.toString()}))
                             dispatch(openPaxModel())
                             setCalenderOpen(false)
-                        }}>Next</button> : type === 'bookTypeTwo' && pref ? <button onClick={() => {
-                            dispatch(setBookingDate({selectedBookingDate:format(selectedDate, 'PPP'), selectedDay: selectedDate.toString()}))
-                            dispatch(openPaxModel())
-                            setCalenderOpen(false)
-                        }}>Next</button> : type === 'bookTypeThree' && pref ? <button onClick={() => {
-                            dispatch(setBookingDate({selectedBookingDate:format(selectedDate, 'PPP'), selectedDay: selectedDate.toString()}))
-                            dispatch(openPaxModel())
-                            setCalenderOpen(false)
-                        }}>Next</button> : type === 'bookTypeFour' && pref ? <button onClick={() => {
-                            dispatch(setBookingDate({selectedBookingDate:format(selectedDate, 'PPP'), selectedDay: selectedDate.toString()}))
-                            dispatch(openPaxModel())
-                            setCalenderOpen(false)
-                        }}>Next</button> :  <></>
+                        }}>Next</button> : <></>
                     }
                     </> : <p>Select One Date</p>
                 }

@@ -7,7 +7,7 @@ const ImageViewerContainer = ({imgData, setImageViwer}) => {
     const [imgindex, setIndexImg] = useState(0)
     const imgSlideLeft = () => {
         if(imgindex === 0){
-            setIndexImg(imgData.length)
+            setIndexImg(imgData.length-1)
             return
         }
         setIndexImg((prev) => (

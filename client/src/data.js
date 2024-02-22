@@ -12,14 +12,121 @@ export const cardData = [
             "https://res.cloudinary.com/drrkaak40/image/upload/v1708583252/Malaysia%20Experience/SKYCAB%20LANGKAWI/3d_art_museum_1_ylcitb.jpg"
         ],
         title:"Skycab 4 in 1",
-        desc:"Take in mesmerising landscapes of Kuala Lumpur City at the height of 276 meters above the ground with their exclusive binocular service.",
+        desc:"Have fun at the Skycab Standard Gondola Cable Car, Skydome, Skyrex and3D Art Langkawi.",
         type:"bookTypeOne",
         preference:[
             {
                 title:"Malaysian",
                 price:{
+                    adult:40,
+                    child:32,
+                },
+                details:[
+                    "Valid only for Malaysian Citizens"
+                ]
+            },
+            {
+                title:"Non-Malaysian",
+                price:{
+                    adult:83,
+                    child:64,
+                },
+                details:[
+                    "Valid only for Non Malaysian Citizens"
+                ]
+            }
+        ]
+    },
+    {
+        id: uuidv4(),
+        image:[
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583399/Malaysia%20Experience/SKYCAB%20LANGKAWI/skycab_7_dsrosl.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/skybrdige_1_kcgmsa.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583253/Malaysia%20Experience/SKYCAB%20LANGKAWI/3d_art_museum_3_jgbxaq.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583401/Malaysia%20Experience/SKYCAB%20LANGKAWI/skydome_1_wur3dm.png",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583403/Malaysia%20Experience/SKYCAB%20LANGKAWI/skyrex_2_pfaeha.jpg"
+        ],
+        title:"Skycab 5 in 1",
+        desc:"A combo of Skycab Standard Gondola Cable car, Skybridge, Skydome, Skyrexand 3D Art Langkawi.",
+        type:"bookTypeTwo",
+        preference:[
+            {
+                title:"Malaysian",
+                price:{
+                    adult:47,
+                    child:36,
+                },
+                details:[
+                    "Valid only for Malaysian Citizens"
+                ]
+            },
+            {
+                title:"Non-Malaysian",
+                price:{
+                    adult:89,
+                    child:68,
+                },
+                details:[
+                    "Valid only for Non Malaysian Citizens"
+                ]
+            }
+        ]
+    },
+    {
+        id: uuidv4(),
+        image:[
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583399/Malaysia%20Experience/SKYCAB%20LANGKAWI/skycab_1_epcm9z.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/3d_art_museum_2_py4sar.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583255/Malaysia%20Experience/SKYCAB%20LANGKAWI/skybridge_2_zcxw98.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583401/Malaysia%20Experience/SKYCAB%20LANGKAWI/skyglide_1_nyh0v4.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583403/Malaysia%20Experience/SKYCAB%20LANGKAWI/skyrex_2_pfaeha.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583400/Malaysia%20Experience/SKYCAB%20LANGKAWI/skydome_2_u41xgj.jpg"
+
+        ],
+        title:"Skycab 6 in 1",
+        desc:"Opportunity to experience a combo of Skycab Standard Gondola Cable car, Skybridge, Skydome, Skyrex, Skyglide and 3D Art Langkawi.",
+        type:"bookTypeThree",
+        preference:[
+            {
+                title:"Malaysian",
+                price:{
+                    adult:58,
+                    child:43,
+                },
+                details:[
+                    "Valid only for Malaysian Citizens"
+                ]
+            },
+            {
+                title:"Non-Malaysian",
+                price:{
+                    adult:99,
+                    child:74,
+                },
+                details:[
+                    "Valid only for Non Malaysian Citizens"
+                ]
+            }
+        ]
+    },
+    {
+        id: uuidv4(),
+        image:[
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_1_ueoe5q.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_2_jhk0eq.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583255/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_3_w0o2sy.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_5_q86xdr.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_4_vygsls.jpg"
+        ],
+        title:"Eagle's Nest Skywalk",
+        desc:"Discover the thrill of the Eagle's Nest Skywalk in Langkawi, Malaysia! Walk on glass bridge extending from a cliff and enjoy stunning views of the rainforest and ocean.",
+        type:"bookTypeFour",
+        preference:[
+            {
+                title:"Malaysian",
+                price:{
                     adult:27,
-                    child:17,
+                    child:16,
                 },
                 details:[
                     "Valid only for Malaysian Citizens"
@@ -29,7 +136,7 @@ export const cardData = [
                 title:"Non-Malaysian",
                 price:{
                     adult:48,
-                    child:28,
+                    child:36,
                 },
                 details:[
                     "Valid only for Non Malaysian Citizens"
@@ -40,19 +147,22 @@ export const cardData = [
     {
         id: uuidv4(),
         image:[
-            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017719/Malaysia%20Experience/KL%20Tower/image2-4_ojzcvd.png",
-            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017717/Malaysia%20Experience/KL%20Tower/towerwalk_2_nn5pzd.jpg",
-            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017718/Malaysia%20Experience/KL%20Tower/TW2_ncw2wp.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583401/Malaysia%20Experience/SKYCAB%20LANGKAWI/skycab_3_tehqe5.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583400/Malaysia%20Experience/SKYCAB%20LANGKAWI/skycab_2_flcc17.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583399/Malaysia%20Experience/SKYCAB%20LANGKAWI/skycab_8_zounyf.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_1_ueoe5q.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_2_jhk0eq.jpg",
+            "https://res.cloudinary.com/drrkaak40/image/upload/v1708583255/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_3_w0o2sy.jpg",
         ],
-        title:"Tower Walk",
-        desc:"Feel the thrill of walking 100 feet above the ground, on the edge of the tower with the supervision of the professionals.",
-        type:"bookTypeTwo",
+        title:"Skycab + Eagle,s Nest Skywalk",
+        desc:"Soar to new heights with our Langkawi Cable Car and Eagle's Nest Skywalk combo! Step onto the thrilling glass-floored Skywalk for panoramic views over the rainforest and sea.",
+        type:"bookTypeFive",
         preference:[
             {
                 title:"Malaysian",
                 price:{
-                    adult:18,
-                    child:12,
+                    adult:66,
+                    child:46,
                 },
                 details:[
                     "Valid only for Malaysian Citizens"
@@ -61,74 +171,8 @@ export const cardData = [
             {
                 title:"Non-Malaysian",
                 price:{
-                    adult:32,
-                    child:25,
-                },
-                details:[
-                    "Valid only for Non Malaysian Citizens"
-                ]
-            }
-        ]
-    },
-    {
-        id: uuidv4(),
-        image:[
-            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017715/Malaysia%20Experience/KL%20Tower/sbox_z3am32.jpg",
-            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017716/Malaysia%20Experience/KL%20Tower/sky_deck_3_wyafkz.jpg",
-            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017717/Malaysia%20Experience/KL%20Tower/sky_deck_2_xkyyqc.png",
-        ],
-        title:"Sky Deck + Sky Box",
-        desc:"Located 300 above the ground, they offers unique experience for visitor to enjoy the skyline day and night.",
-        type:"bookTypeThree",
-        preference:[
-            {
-                title:"Malaysian",
-                price:{
-                    adult:60,
-                    child:30,
-                },
-                details:[
-                    "Valid only for Malaysian Citizens"
-                ]
-            },
-            {
-                title:"Non-Malaysian",
-                price:{
-                    adult:79,
-                    child:49,
-                },
-                details:[
-                    "Valid only for Non Malaysian Citizens"
-                ]
-            }
-        ]
-    },
-    {
-        id: uuidv4(),
-        image:[
-            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017715/Malaysia%20Experience/KL%20Tower/Observation-Deck_3_inqqw9.jpg",
-            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017715/Malaysia%20Experience/KL%20Tower/sbox_2_rpilkp.jpg",
-            "https://res.cloudinary.com/drrkaak40/image/upload/v1708017717/Malaysia%20Experience/KL%20Tower/sky_deck_2_xkyyqc.png",
-        ],
-        title:"Combo: Observation Deck + Sky Deck + Sky Box",
-        desc:"Hold the admission to Observation Deck, Sky Deck and Sky Box, tourist may enjoy the majestic views of Kuala Lumpur with various spots and heights.",
-        type:"bookTypeFour",
-        preference:[
-            {
-                title:"Malaysian",
-                price:{
-                    adult:85,
-                    child:42,
-                },
-                details:[
-                    "Valid only for Malaysian Citizens"
-                ]
-            },
-            {
-                title:"Non-Malaysian",
-                price:{
-                    adult:115,
-                    child:72,
+                    adult:125,
+                    child:98,
                 },
                 details:[
                     "Valid only for Non Malaysian Citizens"
