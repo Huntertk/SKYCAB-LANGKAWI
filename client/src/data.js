@@ -306,7 +306,7 @@ export const homeFAQ = [
     {
         id: uuidv4(),
         ques:"How long is the cable car ride ?",
-        ans:": The cable car ride takes approximately 15 minutes from the base station to the Top Station"
+        ans:"The cable car ride takes approximately 15 minutes from the base station to the Top Station"
     },
     {
         id: uuidv4(),
