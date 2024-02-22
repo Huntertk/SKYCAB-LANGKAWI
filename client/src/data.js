@@ -256,8 +256,7 @@ export const addQues = [
         id: uuidv4(),
         ques:"Operating Hours ?",
         ans:[
-            "All attraction opens from 9am to 10pm",
-            "Opens everyday"
+            "Opens everyday 9am to 6pm"
         ]
     },
     {
@@ -265,19 +264,17 @@ export const addQues = [
         ques:"Child Policy",
         ans:[
             "Adult age 13 and above",
-            "Child age 4 to 12 years old",
-            "Below 4 years old enter for Free",
+            "Child age 3 to 12 years old",
+            "Below 3 years old enter for Free",
             "Senior citizen may purchase at the counter directly",
-            "OKU may purchase at the counter directly",
+            "OKU/disabled person may purchase at the counter directly",
         ]
     },
     {
         id: uuidv4(),
         ques:"Important Information",
         ans:[
-            "For Tower Walk 100, minimum height of 120cm is required and must weight between 34kg to 140kg",
-            "Customer may refer the counter if unable to proceed with the activity in caseof bad weather",
-            "On-site locker is available for Tower Walk 100",
+            "Customer need to refer to the counter if any bad weather condition",
         ]
     },
     {
@@ -298,7 +295,7 @@ export const addQues = [
         id: uuidv4(),
         ques:"Ticket Validity",
         ans:[
-            "You may use the tickets within 30 days from purchased date."
+            "You may use the tickets within 30 days from purchased date"
         ]
     },
 ]
@@ -308,38 +305,33 @@ export const addQues = [
 export const homeFAQ = [
     {
         id: uuidv4(),
-        ques:"Can I bring along my camera inside the tower ?",
-        ans:"Yes you may."
+        ques:"How long is the cable car ride ?",
+        ans:": The cable car ride takes approximately 15 minutes from the base station to the Top Station"
     },
     {
         id: uuidv4(),
-        ques:"What should I do if it rains ?",
-        ans:"You may refer to the counter for advise on ticket extension."
+        ques:"What are the main attractions along the cable car route ?",
+        ans:"Along the cable car route, visitors can enjoy panoramic views of the surrounding islands and seascape. They can also explore the Middle and Top Stations and walk on the SkyBridge for breathtaking vistas"
     },
     {
         id: uuidv4(),
-        ques:"Can I bring stroller or wheelchair inside the tower ?",
-        ans:"Yes you may bring"
+        ques:"Is Skycab Langkawi suitable for children and elderly visitors ?",
+        ans:"Yes, Skycab Langkawi is suitable for visitors of all ages. However, individuals with certain medical conditions or mobility issues may find the cable car ride challenging"
     },
     {
         id: uuidv4(),
-        ques:"Does my ticket include parking ?",
-        ans:"No. Parking is not provided"
+        ques:"What are the operating hours of Skycab Langkawi ?",
+        ans:"The operating hours of Skycab Langkawi vary depending on the season and weather conditions. It is advisable to check the official website or contact the attraction directly for the latest information"
     },
     {
         id: uuidv4(),
-        ques:"Is there any time slot to enter the attraction ?",
-        ans:"No, you may enter any time within the operation hours."
+        ques:"Is there parking available at Skycab Langkawi ?",
+        ans:"Yes, there is ample parking available at the Oriental Village for visitors arriving by car or motorcycle"
     },
     {
         id: uuidv4(),
-        ques:"What is the closest MRT station to the KL Tower ?",
-        ans:"Monorail station Bukit Nanas and also Dang Wangi is the closest station. You'll walkroughly 20 minutes to reach the tower."
-    },
-    {
-        id: uuidv4(),
-        ques:"Is the KL Tower open everyday ?",
-        ans:"Yes. Open everyday from 9am to 10pm."
+        ques:"Is there wheelchair service available ?",
+        ans:"Yes, you may request for wheelchair at the customer service"
     },
 ]
 
