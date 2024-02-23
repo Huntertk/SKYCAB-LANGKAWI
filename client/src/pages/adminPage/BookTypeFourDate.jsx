@@ -57,7 +57,7 @@ const BookTypeFourDate = () => {
 
   return (
     <div className='mainDateManageContainer'>
-        <h1>Combo : Observer Deck + Sky Deck + Sky Box<br /> Date Manage</h1>
+        <h1>Eagle's Nest Skywalk<br /> Date Manage</h1>
         <DayPicker
                 defaultMonth={new Date(Date.now())}
                 mode="single"

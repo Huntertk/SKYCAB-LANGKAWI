@@ -13,6 +13,7 @@ import bookTypeOneDateRouter from './routes/bookTypeOneDateRoutes.js'
 import bookTypeTwoDateRouter from './routes/bookTypeTwoDateRoutes.js'
 import bookTypeThreeDateRouter from './routes/bookTypeThreeDateRoutes.js'
 import bookTypeFourDateRouter from './routes/bookTypeFourDateRoutes.js'
+import bookTypeFiveDateRouter from './routes/bookTypeFiveDateRoutes.js'
 
 
 
@@ -39,6 +40,7 @@ app.use("/api/v1/booktype-one-dates-manage", bookTypeOneDateRouter)
 app.use("/api/v1/booktype-two-dates-manage", bookTypeTwoDateRouter)
 app.use("/api/v1/booktype-three-dates-manage", bookTypeThreeDateRouter)
 app.use("/api/v1/booktype-four-dates-manage", bookTypeFourDateRouter)
+app.use("/api/v1/booktype-five-dates-manage", bookTypeFiveDateRouter)
 
 app.use(express.static(path.join(__dirname, '/client/dist')))
 

@@ -27,6 +27,7 @@ import BookTypeOneDate from './pages/adminPage/BookTypeOneDate'
 import BookTypeTwoDate from './pages/adminPage/BookTypeTwoDate'
 import BookTypeThreeDate from './pages/adminPage/BookTypeThreeDate'
 import BookTypeFourDate from './pages/adminPage/BookTypeFourDate'
+import BookTypeFiveDate from './pages/adminPage/BookTypeFiveDate'
 
 const App = () => {
   const {responseClientUrl} = useSelector(state => state.booking)
@@ -54,6 +55,7 @@ const App = () => {
             <Route path="/admin/manage-dates/booktype-two" element={<BookTypeTwoDate />} />
             <Route path="/admin/manage-dates/booktype-three" element={<BookTypeThreeDate />} />
             <Route path="/admin/manage-dates/booktype-four" element={<BookTypeFourDate />} />
+            <Route path="/admin/manage-dates/booktype-five" element={<BookTypeFiveDate />} />
             <Route path="/admin/confirmed-booking" element={<ConfirmedBooking />} />
             <Route path="/admin/completed-booking" element={<CompletedBooking />} />
             <Route path="/admin/pending-booking" element={<PendingBooking />} />

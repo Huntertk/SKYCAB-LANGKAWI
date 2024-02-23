@@ -7,10 +7,11 @@ const ManageDates = () => {
     <section className='manageDates'>
       <h1>Manages Dates</h1>
       <div className="btnContainer">
-        <Link to="/admin/manage-dates/booktype-one">Observation Deck</Link>
-        <Link to="/admin/manage-dates/booktype-two">Tower Walk</Link>
-        <Link to="/admin/manage-dates/booktype-three">Sky Deck + Sky Box</Link>
-        <Link to="/admin/manage-dates/booktype-four">Combo: Observation Deck + Sky Deck + Sky Box</Link>
+        <Link to="/admin/manage-dates/booktype-one">Skycab 4 in 1</Link>
+        <Link to="/admin/manage-dates/booktype-two">Skycab 5 in 1</Link>
+        <Link to="/admin/manage-dates/booktype-three">Skycab 6 in 1</Link>
+        <Link to="/admin/manage-dates/booktype-four">Eagle's Nest Skywalk</Link>
+        <Link to="/admin/manage-dates/booktype-five">Skycab + Eagle's Nest Skywalk</Link>
       </div>
     </section>
   )

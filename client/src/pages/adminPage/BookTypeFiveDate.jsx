@@ -7,7 +7,7 @@ import {toast} from 'react-toastify'
 import moment from 'moment'
 import '../../styles/manageDates.scss'
 
-const BookTypeTwoDate = () => {
+const BookTypeFiveDate = () => {
   const [isLoading, setIsLoading] = useState(false)
     const [selectedDate, setSelectedDate] = useState("")
     const [isFetch, setIsFetch] = useState(false)
@@ -21,7 +21,7 @@ const BookTypeTwoDate = () => {
       const addBlockDate = async () => {
         try {
           setIsLoading(true)
-            const {data} = await axios.post('/api/v1/booktype-two-dates-manage/block-dates', {blockDates: dateToString})
+            const {data} = await axios.post('/api/v1/booktype-five-dates-manage/block-dates', {blockDates: dateToString})
             toast.success("Date Blocked Successfully")
             setIsFetch(prev => !prev)
             setSelectedDate("")
@@ -33,7 +33,7 @@ const BookTypeTwoDate = () => {
         
         const getBlockDates = async () => {
           try {
-            const {data} = await axios.get('/api/v1/booktype-two-dates-manage/block-dates')
+            const {data} = await axios.get('/api/v1/booktype-five-dates-manage/block-dates')
             setBlockedDates(data.blockDates)
           } catch (error) {
             console.log(error);
@@ -43,7 +43,7 @@ const BookTypeTwoDate = () => {
         const removeBlockedDate = async (id) => {
           try {
             setIsLoading(true)
-            const res = await axios.delete(`/api/v1/booktype-two-dates-manage/block-dates/${id}`)
+            const res = await axios.delete(`/api/v1/booktype-five-dates-manage/block-dates/${id}`)
             setIsFetch(prev => !prev)
             setIsLoading(false)
           } catch (error) {
@@ -57,7 +57,7 @@ const BookTypeTwoDate = () => {
 
   return (
     <div className='mainDateManageContainer'>
-        <h1>Skycab 5 in 1<br /> Date Manage</h1>
+        <h1>Skycab + Eagle's Nest Skywalk<br /> Date Manage</h1>
         <DayPicker
                 defaultMonth={new Date(Date.now())}
                 mode="single"
@@ -91,4 +91,4 @@ const BookTypeTwoDate = () => {
   )
 }
 
-export default BookTypeTwoDate
+export default BookTypeFiveDate

@@ -57,7 +57,7 @@ const BookTypeThreeDate = () => {
 
   return (
     <div className='mainDateManageContainer'>
-        <h1>Sky Deck + Sky Box<br /> Date Manage</h1>
+        <h1>Skycab 6 in 1<br /> Date Manage</h1>
         <DayPicker
                 defaultMonth={new Date(Date.now())}
                 mode="single"

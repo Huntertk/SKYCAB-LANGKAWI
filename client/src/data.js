@@ -154,7 +154,7 @@ export const cardData = [
             "https://res.cloudinary.com/drrkaak40/image/upload/v1708583254/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_2_jhk0eq.jpg",
             "https://res.cloudinary.com/drrkaak40/image/upload/v1708583255/Malaysia%20Experience/SKYCAB%20LANGKAWI/eagle_3_w0o2sy.jpg",
         ],
-        title:"Skycab + Eagle,s Nest Skywalk",
+        title:"Skycab + Eagle's Nest Skywalk",
         desc:"Soar to new heights with our Langkawi Cable Car and Eagle's Nest Skywalk combo! Step onto the thrilling glass-floored Skywalk for panoramic views over the rainforest and sea.",
         type:"bookTypeFive",
         preference:[
